@@ -192,3 +192,6 @@ h1{font-size:clamp(42px,5.4vw,82px)}
 }
 @media (max-width:380px){.top-in{gap:12px}.top-tel{font-size:13px}.btn{white-space:normal;text-align:center}}
 .c-big{display:flex;flex-direction:column}.c-big blockquote{margin-top:auto;font-size:clamp(17px,1.6vw,22px);padding:24px 26px}@media (max-width:1020px){.c-big blockquote{margin-top:22px}}
+
+/* кнопка «Показать ещё отзывы» и другие скрытые элементы прячутся по-настоящему */
+[hidden]{display:none!important}
